@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Company from './pages/Company';
 import Contact from './pages/Contact';
 import NewProject from './pages/NewProject';
 
-import Container from './layout/Container';
+import Container from './components/Container';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -25,6 +25,7 @@ function App() {
           <Route path='/newproject' element={<NewProject />} />
         </Routes>
       </Container>
+      
       <Footer />
     </Router>
   )

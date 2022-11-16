@@ -1,7 +1,7 @@
 import './styles.css';
 
 import { Link } from 'react-router-dom';
-import Container from '../../layout/Container';
+import Container from '../Container';
 
 export default function Navbar() {
     return (
