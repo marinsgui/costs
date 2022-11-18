@@ -23,11 +23,11 @@
       "id": 3
     },
     {
-      "name": "teste 4",
-      "budget": "2222222222",
+      "name": "projeto atualizado",
+      "budget": "123456",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
